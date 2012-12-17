@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371D36C1167FAAF3002175AB /* MilkyWayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D36BD167FAAF3002175AB /* MilkyWayIcon.png */; };
+		371D36C2167FAAF3002175AB /* MilkyWayIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D36BE167FAAF3002175AB /* MilkyWayIcon@2x.png */; };
+		371D36C3167FAAF3002175AB /* MilkyWayIconiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D36BF167FAAF3002175AB /* MilkyWayIconiPad.png */; };
+		371D36C4167FAAF3002175AB /* MilkyWayIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D36C0167FAAF3002175AB /* MilkyWayIconiPad@2x.png */; };
 		37A4FD48167F92B6009EAE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD47167F92B6009EAE75 /* UIKit.framework */; };
 		37A4FD4A167F92B6009EAE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD49167F92B6009EAE75 /* Foundation.framework */; };
 		37A4FD4C167F92B6009EAE75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD4B167F92B6009EAE75 /* CoreGraphics.framework */; };
@@ -46,13 +50,13 @@
 		37C5BACC167F9911009994A6 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C5BACB167F9911009994A6 /* Texture2D.m */; };
 		37C5BACF167F9A84009994A6 /* QuadMilkyWay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BACD167F9A84009994A6 /* QuadMilkyWay.vsh */; };
 		37C5BAD0167F9A84009994A6 /* QuadMilkyWay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BACE167F9A84009994A6 /* QuadMilkyWay.fsh */; };
-		37C5BAD4167FA4CB009994A6 /* MilkyWayIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD3167FA4CB009994A6 /* MilkyWayIcon@2x.png */; };
-		37C5BAD6167FA4CF009994A6 /* MilkyWayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD5167FA4CF009994A6 /* MilkyWayIcon.png */; };
-		37C5BAD8167FA5A3009994A6 /* MilkyWayIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD7167FA5A3009994A6 /* MilkyWayIconiPad@2x.png */; };
-		37C5BADA167FA5A6009994A6 /* MilkyWayIconiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD9167FA5A6009994A6 /* MilkyWayIconiPad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371D36BD167FAAF3002175AB /* MilkyWayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MilkyWayIcon.png; sourceTree = "<group>"; };
+		371D36BE167FAAF3002175AB /* MilkyWayIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MilkyWayIcon@2x.png"; sourceTree = "<group>"; };
+		371D36BF167FAAF3002175AB /* MilkyWayIconiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MilkyWayIconiPad.png; sourceTree = "<group>"; };
+		371D36C0167FAAF3002175AB /* MilkyWayIconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MilkyWayIconiPad@2x.png"; sourceTree = "<group>"; };
 		37A4FD43167F92B6009EAE75 /* Milky Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milky Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A4FD47167F92B6009EAE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37A4FD49167F92B6009EAE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,10 +109,6 @@
 		37C5BACB167F9911009994A6 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
 		37C5BACD167F9A84009994A6 /* QuadMilkyWay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadMilkyWay.vsh; sourceTree = "<group>"; };
 		37C5BACE167F9A84009994A6 /* QuadMilkyWay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadMilkyWay.fsh; sourceTree = "<group>"; };
-		37C5BAD3167FA4CB009994A6 /* MilkyWayIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MilkyWayIcon@2x.png"; path = "../MilkyWayIcon@2x.png"; sourceTree = "<group>"; };
-		37C5BAD5167FA4CF009994A6 /* MilkyWayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilkyWayIcon.png; path = ../MilkyWayIcon.png; sourceTree = "<group>"; };
-		37C5BAD7167FA5A3009994A6 /* MilkyWayIconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MilkyWayIconiPad@2x.png"; path = "../MilkyWayIconiPad@2x.png"; sourceTree = "<group>"; };
-		37C5BAD9167FA5A6009994A6 /* MilkyWayIconiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilkyWayIconiPad.png; path = ../MilkyWayIconiPad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,10 +172,10 @@
 		37A4FD52167F92B6009EAE75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				37C5BAD5167FA4CF009994A6 /* MilkyWayIcon.png */,
-				37C5BAD3167FA4CB009994A6 /* MilkyWayIcon@2x.png */,
-				37C5BAD9167FA5A6009994A6 /* MilkyWayIconiPad.png */,
-				37C5BAD7167FA5A3009994A6 /* MilkyWayIconiPad@2x.png */,
+				371D36BD167FAAF3002175AB /* MilkyWayIcon.png */,
+				371D36BE167FAAF3002175AB /* MilkyWayIcon@2x.png */,
+				371D36BF167FAAF3002175AB /* MilkyWayIconiPad.png */,
+				371D36C0167FAAF3002175AB /* MilkyWayIconiPad@2x.png */,
 				37A4FD53167F92B6009EAE75 /* OpenGLMilkyWay-Info.plist */,
 				37A4FD54167F92B6009EAE75 /* InfoPlist.strings */,
 				37A4FD57167F92B6009EAE75 /* main.m */,
@@ -352,10 +352,10 @@
 				37C5BAC5167F9801009994A6 /* share_iphone@2x.png in Resources */,
 				37C5BAC6167F9801009994A6 /* share.png in Resources */,
 				37C5BAC7167F9801009994A6 /* share@2x.png in Resources */,
-				37C5BAD4167FA4CB009994A6 /* MilkyWayIcon@2x.png in Resources */,
-				37C5BAD6167FA4CF009994A6 /* MilkyWayIcon.png in Resources */,
-				37C5BAD8167FA5A3009994A6 /* MilkyWayIconiPad@2x.png in Resources */,
-				37C5BADA167FA5A6009994A6 /* MilkyWayIconiPad.png in Resources */,
+				371D36C1167FAAF3002175AB /* MilkyWayIcon.png in Resources */,
+				371D36C2167FAAF3002175AB /* MilkyWayIcon@2x.png in Resources */,
+				371D36C3167FAAF3002175AB /* MilkyWayIconiPad.png in Resources */,
+				371D36C4167FAAF3002175AB /* MilkyWayIconiPad@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
