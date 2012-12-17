@@ -1,7 +1,7 @@
 OpenGL Milky Way 
 ===========================================================================
 
-![Milky Way](/hannorein/OpenGLMilkyWay/raw/master/MilkyWayIcon@2x.png) 
+![Milky Way](/hannorein/OpenGLMilkyWay/raw/master/screenshot.png) 
 
 This is an example project to show how to render a Galaxy in OpenGL on the iPhone. 
 To simulate interstellar dust realistically with unsorted point sprites in OpenGL, I've implemented a GPU based ray tracing algorithm.
