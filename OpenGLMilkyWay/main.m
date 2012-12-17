@@ -1,0 +1,18 @@
+//
+//  main.m
+//  OpenGLMilkyWay
+//
+//  Created by Hanno Rein on 12/17/12.
+//  Copyright (c) 2012 Hanno Rein. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "MWRTAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MWRTAppDelegate class]));
+    }
+}

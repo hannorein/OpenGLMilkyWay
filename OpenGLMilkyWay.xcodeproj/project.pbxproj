@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A4FD48167F92B6009EAE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD47167F92B6009EAE75 /* UIKit.framework */; };
+		37A4FD4A167F92B6009EAE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD49167F92B6009EAE75 /* Foundation.framework */; };
+		37A4FD4C167F92B6009EAE75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD4B167F92B6009EAE75 /* CoreGraphics.framework */; };
+		37A4FD4E167F92B6009EAE75 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD4D167F92B6009EAE75 /* GLKit.framework */; };
+		37A4FD50167F92B6009EAE75 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4FD4F167F92B6009EAE75 /* OpenGLES.framework */; };
+		37A4FD56167F92B6009EAE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD54167F92B6009EAE75 /* InfoPlist.strings */; };
+		37A4FD58167F92B6009EAE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD57167F92B6009EAE75 /* main.m */; };
+		37A4FD5C167F92B6009EAE75 /* MWRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD5B167F92B6009EAE75 /* MWRTAppDelegate.m */; };
+		37A4FD5E167F92B6009EAE75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD5D167F92B6009EAE75 /* Default.png */; };
+		37A4FD60167F92B6009EAE75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD5F167F92B6009EAE75 /* Default@2x.png */; };
+		37A4FD62167F92B6009EAE75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD61167F92B6009EAE75 /* Default-568h@2x.png */; };
+		37A4FD64167F92B6009EAE75 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD63167F92B6009EAE75 /* Shader.fsh */; };
+		37A4FD66167F92B6009EAE75 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD65167F92B6009EAE75 /* Shader.vsh */; };
+		37A4FD69167F92B6009EAE75 /* MWRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD68167F92B6009EAE75 /* MWRTViewController.m */; };
+		37A4FD6C167F92B6009EAE75 /* MWRTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD6A167F92B6009EAE75 /* MWRTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37A4FD43167F92B6009EAE75 /* OpenGLMilkyWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLMilkyWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A4FD47167F92B6009EAE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37A4FD49167F92B6009EAE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A4FD4B167F92B6009EAE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37A4FD4D167F92B6009EAE75 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		37A4FD4F167F92B6009EAE75 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		37A4FD53167F92B6009EAE75 /* OpenGLMilkyWay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLMilkyWay-Info.plist"; sourceTree = "<group>"; };
+		37A4FD55167F92B6009EAE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37A4FD57167F92B6009EAE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37A4FD59167F92B6009EAE75 /* OpenGLMilkyWay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGLMilkyWay-Prefix.pch"; sourceTree = "<group>"; };
+		37A4FD5A167F92B6009EAE75 /* MWRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWRTAppDelegate.h; sourceTree = "<group>"; };
+		37A4FD5B167F92B6009EAE75 /* MWRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWRTAppDelegate.m; sourceTree = "<group>"; };
+		37A4FD5D167F92B6009EAE75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		37A4FD5F167F92B6009EAE75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		37A4FD61167F92B6009EAE75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		37A4FD63167F92B6009EAE75 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		37A4FD65167F92B6009EAE75 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		37A4FD67167F92B6009EAE75 /* MWRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWRTViewController.h; sourceTree = "<group>"; };
+		37A4FD68167F92B6009EAE75 /* MWRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWRTViewController.m; sourceTree = "<group>"; };
+		37A4FD6B167F92B6009EAE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWRTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A4FD40167F92B6009EAE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A4FD48167F92B6009EAE75 /* UIKit.framework in Frameworks */,
+				37A4FD4A167F92B6009EAE75 /* Foundation.framework in Frameworks */,
+				37A4FD4C167F92B6009EAE75 /* CoreGraphics.framework in Frameworks */,
+				37A4FD4E167F92B6009EAE75 /* GLKit.framework in Frameworks */,
+				37A4FD50167F92B6009EAE75 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A4FD38167F92B6009EAE75 = {
+			isa = PBXGroup;
+			children = (
+				37A4FD51167F92B6009EAE75 /* OpenGLMilkyWay */,
+				37A4FD46167F92B6009EAE75 /* Frameworks */,
+				37A4FD44167F92B6009EAE75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A4FD44167F92B6009EAE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD43167F92B6009EAE75 /* OpenGLMilkyWay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A4FD46167F92B6009EAE75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD47167F92B6009EAE75 /* UIKit.framework */,
+				37A4FD49167F92B6009EAE75 /* Foundation.framework */,
+				37A4FD4B167F92B6009EAE75 /* CoreGraphics.framework */,
+				37A4FD4D167F92B6009EAE75 /* GLKit.framework */,
+				37A4FD4F167F92B6009EAE75 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A4FD51167F92B6009EAE75 /* OpenGLMilkyWay */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD5A167F92B6009EAE75 /* MWRTAppDelegate.h */,
+				37A4FD5B167F92B6009EAE75 /* MWRTAppDelegate.m */,
+				37A4FD63167F92B6009EAE75 /* Shader.fsh */,
+				37A4FD65167F92B6009EAE75 /* Shader.vsh */,
+				37A4FD67167F92B6009EAE75 /* MWRTViewController.h */,
+				37A4FD68167F92B6009EAE75 /* MWRTViewController.m */,
+				37A4FD6A167F92B6009EAE75 /* MWRTViewController.xib */,
+				37A4FD52167F92B6009EAE75 /* Supporting Files */,
+			);
+			path = OpenGLMilkyWay;
+			sourceTree = "<group>";
+		};
+		37A4FD52167F92B6009EAE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD53167F92B6009EAE75 /* OpenGLMilkyWay-Info.plist */,
+				37A4FD54167F92B6009EAE75 /* InfoPlist.strings */,
+				37A4FD57167F92B6009EAE75 /* main.m */,
+				37A4FD59167F92B6009EAE75 /* OpenGLMilkyWay-Prefix.pch */,
+				37A4FD5D167F92B6009EAE75 /* Default.png */,
+				37A4FD5F167F92B6009EAE75 /* Default@2x.png */,
+				37A4FD61167F92B6009EAE75 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A4FD42167F92B6009EAE75 /* OpenGLMilkyWay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A4FD6F167F92B6009EAE75 /* Build configuration list for PBXNativeTarget "OpenGLMilkyWay" */;
+			buildPhases = (
+				37A4FD3F167F92B6009EAE75 /* Sources */,
+				37A4FD40167F92B6009EAE75 /* Frameworks */,
+				37A4FD41167F92B6009EAE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLMilkyWay;
+			productName = OpenGLMilkyWay;
+			productReference = 37A4FD43167F92B6009EAE75 /* OpenGLMilkyWay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A4FD3A167F92B6009EAE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MWRT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hanno Rein";
+			};
+			buildConfigurationList = 37A4FD3D167F92B6009EAE75 /* Build configuration list for PBXProject "OpenGLMilkyWay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37A4FD38167F92B6009EAE75;
+			productRefGroup = 37A4FD44167F92B6009EAE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A4FD42167F92B6009EAE75 /* OpenGLMilkyWay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A4FD41167F92B6009EAE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A4FD56167F92B6009EAE75 /* InfoPlist.strings in Resources */,
+				37A4FD5E167F92B6009EAE75 /* Default.png in Resources */,
+				37A4FD60167F92B6009EAE75 /* Default@2x.png in Resources */,
+				37A4FD62167F92B6009EAE75 /* Default-568h@2x.png in Resources */,
+				37A4FD64167F92B6009EAE75 /* Shader.fsh in Resources */,
+				37A4FD66167F92B6009EAE75 /* Shader.vsh in Resources */,
+				37A4FD6C167F92B6009EAE75 /* MWRTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A4FD3F167F92B6009EAE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A4FD58167F92B6009EAE75 /* main.m in Sources */,
+				37A4FD5C167F92B6009EAE75 /* MWRTAppDelegate.m in Sources */,
+				37A4FD69167F92B6009EAE75 /* MWRTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37A4FD54167F92B6009EAE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A4FD55167F92B6009EAE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37A4FD6A167F92B6009EAE75 /* MWRTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A4FD6B167F92B6009EAE75 /* en */,
+			);
+			name = MWRTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A4FD6D167F92B6009EAE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37A4FD6E167F92B6009EAE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A4FD70167F92B6009EAE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLMilkyWay/OpenGLMilkyWay-Prefix.pch";
+				INFOPLIST_FILE = "OpenGLMilkyWay/OpenGLMilkyWay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37A4FD71167F92B6009EAE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLMilkyWay/OpenGLMilkyWay-Prefix.pch";
+				INFOPLIST_FILE = "OpenGLMilkyWay/OpenGLMilkyWay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A4FD3D167F92B6009EAE75 /* Build configuration list for PBXProject "OpenGLMilkyWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A4FD6D167F92B6009EAE75 /* Debug */,
+				37A4FD6E167F92B6009EAE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A4FD6F167F92B6009EAE75 /* Build configuration list for PBXNativeTarget "OpenGLMilkyWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A4FD70167F92B6009EAE75 /* Debug */,
+				37A4FD71167F92B6009EAE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A4FD3A167F92B6009EAE75 /* Project object */;
+}
