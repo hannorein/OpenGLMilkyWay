@@ -18,14 +18,42 @@
 		37A4FD5E167F92B6009EAE75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD5D167F92B6009EAE75 /* Default.png */; };
 		37A4FD60167F92B6009EAE75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD5F167F92B6009EAE75 /* Default@2x.png */; };
 		37A4FD62167F92B6009EAE75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD61167F92B6009EAE75 /* Default-568h@2x.png */; };
-		37A4FD64167F92B6009EAE75 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD63167F92B6009EAE75 /* Shader.fsh */; };
-		37A4FD66167F92B6009EAE75 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD65167F92B6009EAE75 /* Shader.vsh */; };
-		37A4FD69167F92B6009EAE75 /* MWRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD68167F92B6009EAE75 /* MWRTViewController.m */; };
-		37A4FD6C167F92B6009EAE75 /* MWRTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD6A167F92B6009EAE75 /* MWRTViewController.xib */; };
+		37A4FD75167F9367009EAE75 /* UniverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD73167F9367009EAE75 /* UniverseViewController.m */; };
+		37A4FD7B167F937D009EAE75 /* ExoplanetSharegroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD7A167F937D009EAE75 /* ExoplanetSharegroup.m */; };
+		37A4FD82167F9391009EAE75 /* UniverseDrawableElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD7D167F9390009EAE75 /* UniverseDrawableElement.m */; };
+		37A4FD83167F9391009EAE75 /* ShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD7F167F9390009EAE75 /* ShaderManager.m */; };
+		37A4FD84167F9391009EAE75 /* SimpleShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD81167F9390009EAE75 /* SimpleShader.m */; };
+		37A4FD8B167F93A8009EAE75 /* UDEMilkyWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4FD86167F93A8009EAE75 /* UDEMilkyWay.m */; };
+		37A4FD8C167F93A8009EAE75 /* milkywaybg.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD87167F93A8009EAE75 /* milkywaybg.png */; };
+		37A4FD8D167F93A8009EAE75 /* milkyway0.binary in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD88167F93A8009EAE75 /* milkyway0.binary */; };
+		37A4FD8E167F93A8009EAE75 /* milkywaydust.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD89167F93A8009EAE75 /* milkywaydust.png */; };
+		37A4FD8F167F93A8009EAE75 /* newblob.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD8A167F93A8009EAE75 /* newblob.png */; };
+		37A4FD98167F9407009EAE75 /* PointsMilkyWay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD92167F93FB009EAE75 /* PointsMilkyWay.vsh */; };
+		37A4FD99167F9407009EAE75 /* PointsMilkyWay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD93167F93FD009EAE75 /* PointsMilkyWay.fsh */; };
+		37A4FD9A167F9407009EAE75 /* PointsMilkyWayToTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD94167F9400009EAE75 /* PointsMilkyWayToTexture.vsh */; };
+		37A4FD9B167F9407009EAE75 /* PointsMilkyWayToTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37A4FD95167F9404009EAE75 /* PointsMilkyWayToTexture.fsh */; };
+		37C5BAB0167F9798009994A6 /* ShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C5BAAF167F9798009994A6 /* ShareController.m */; };
+		37C5BAB4167F97CB009994A6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C5BAB3167F97CB009994A6 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		37C5BAB7167F97E9009994A6 /* UIButton+OnScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C5BAB6167F97E9009994A6 /* UIButton+OnScreen.m */; };
+		37C5BAC0167F9801009994A6 /* back_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAB8167F9801009994A6 /* back_iphone.png */; };
+		37C5BAC1167F9801009994A6 /* back_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAB9167F9801009994A6 /* back_iphone@2x.png */; };
+		37C5BAC2167F9801009994A6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BABA167F9801009994A6 /* back.png */; };
+		37C5BAC3167F9801009994A6 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BABB167F9801009994A6 /* back@2x.png */; };
+		37C5BAC4167F9801009994A6 /* share_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BABC167F9801009994A6 /* share_iphone.png */; };
+		37C5BAC5167F9801009994A6 /* share_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BABD167F9801009994A6 /* share_iphone@2x.png */; };
+		37C5BAC6167F9801009994A6 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BABE167F9801009994A6 /* share.png */; };
+		37C5BAC7167F9801009994A6 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BABF167F9801009994A6 /* share@2x.png */; };
+		37C5BACC167F9911009994A6 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C5BACB167F9911009994A6 /* Texture2D.m */; };
+		37C5BACF167F9A84009994A6 /* QuadMilkyWay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BACD167F9A84009994A6 /* QuadMilkyWay.vsh */; };
+		37C5BAD0167F9A84009994A6 /* QuadMilkyWay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BACE167F9A84009994A6 /* QuadMilkyWay.fsh */; };
+		37C5BAD4167FA4CB009994A6 /* MilkyWayIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD3167FA4CB009994A6 /* MilkyWayIcon@2x.png */; };
+		37C5BAD6167FA4CF009994A6 /* MilkyWayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD5167FA4CF009994A6 /* MilkyWayIcon.png */; };
+		37C5BAD8167FA5A3009994A6 /* MilkyWayIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD7167FA5A3009994A6 /* MilkyWayIconiPad@2x.png */; };
+		37C5BADA167FA5A6009994A6 /* MilkyWayIconiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C5BAD9167FA5A6009994A6 /* MilkyWayIconiPad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37A4FD43167F92B6009EAE75 /* OpenGLMilkyWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLMilkyWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A4FD43167F92B6009EAE75 /* Milky Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milky Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A4FD47167F92B6009EAE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37A4FD49167F92B6009EAE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37A4FD4B167F92B6009EAE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,11 +68,47 @@
 		37A4FD5D167F92B6009EAE75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		37A4FD5F167F92B6009EAE75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		37A4FD61167F92B6009EAE75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		37A4FD63167F92B6009EAE75 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		37A4FD65167F92B6009EAE75 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		37A4FD67167F92B6009EAE75 /* MWRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWRTViewController.h; sourceTree = "<group>"; };
-		37A4FD68167F92B6009EAE75 /* MWRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWRTViewController.m; sourceTree = "<group>"; };
-		37A4FD6B167F92B6009EAE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWRTViewController.xib; sourceTree = "<group>"; };
+		37A4FD72167F9367009EAE75 /* UniverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniverseViewController.h; sourceTree = "<group>"; };
+		37A4FD73167F9367009EAE75 /* UniverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniverseViewController.m; sourceTree = "<group>"; };
+		37A4FD79167F937D009EAE75 /* ExoplanetSharegroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoplanetSharegroup.h; sourceTree = "<group>"; };
+		37A4FD7A167F937D009EAE75 /* ExoplanetSharegroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExoplanetSharegroup.m; sourceTree = "<group>"; };
+		37A4FD7C167F9390009EAE75 /* UniverseDrawableElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniverseDrawableElement.h; sourceTree = "<group>"; };
+		37A4FD7D167F9390009EAE75 /* UniverseDrawableElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniverseDrawableElement.m; sourceTree = "<group>"; };
+		37A4FD7E167F9390009EAE75 /* ShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderManager.h; sourceTree = "<group>"; };
+		37A4FD7F167F9390009EAE75 /* ShaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderManager.m; sourceTree = "<group>"; };
+		37A4FD80167F9390009EAE75 /* SimpleShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleShader.h; sourceTree = "<group>"; };
+		37A4FD81167F9390009EAE75 /* SimpleShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleShader.m; sourceTree = "<group>"; };
+		37A4FD85167F93A8009EAE75 /* UDEMilkyWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDEMilkyWay.h; sourceTree = "<group>"; };
+		37A4FD86167F93A8009EAE75 /* UDEMilkyWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDEMilkyWay.m; sourceTree = "<group>"; };
+		37A4FD87167F93A8009EAE75 /* milkywaybg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkywaybg.png; sourceTree = "<group>"; };
+		37A4FD88167F93A8009EAE75 /* milkyway0.binary */ = {isa = PBXFileReference; lastKnownFileType = file; path = milkyway0.binary; sourceTree = "<group>"; };
+		37A4FD89167F93A8009EAE75 /* milkywaydust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkywaydust.png; sourceTree = "<group>"; };
+		37A4FD8A167F93A8009EAE75 /* newblob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newblob.png; sourceTree = "<group>"; };
+		37A4FD92167F93FB009EAE75 /* PointsMilkyWay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointsMilkyWay.vsh; sourceTree = "<group>"; };
+		37A4FD93167F93FD009EAE75 /* PointsMilkyWay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointsMilkyWay.fsh; sourceTree = "<group>"; };
+		37A4FD94167F9400009EAE75 /* PointsMilkyWayToTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointsMilkyWayToTexture.vsh; sourceTree = "<group>"; };
+		37A4FD95167F9404009EAE75 /* PointsMilkyWayToTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointsMilkyWayToTexture.fsh; sourceTree = "<group>"; };
+		37C5BAAE167F9798009994A6 /* ShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareController.h; sourceTree = "<group>"; };
+		37C5BAAF167F9798009994A6 /* ShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareController.m; sourceTree = "<group>"; };
+		37C5BAB3167F97CB009994A6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		37C5BAB5167F97E9009994A6 /* UIButton+OnScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+OnScreen.h"; sourceTree = "<group>"; };
+		37C5BAB6167F97E9009994A6 /* UIButton+OnScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+OnScreen.m"; sourceTree = "<group>"; };
+		37C5BAB8167F9801009994A6 /* back_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_iphone.png; sourceTree = "<group>"; };
+		37C5BAB9167F9801009994A6 /* back_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_iphone@2x.png"; sourceTree = "<group>"; };
+		37C5BABA167F9801009994A6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		37C5BABB167F9801009994A6 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		37C5BABC167F9801009994A6 /* share_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_iphone.png; sourceTree = "<group>"; };
+		37C5BABD167F9801009994A6 /* share_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_iphone@2x.png"; sourceTree = "<group>"; };
+		37C5BABE167F9801009994A6 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		37C5BABF167F9801009994A6 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		37C5BACA167F9911009994A6 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		37C5BACB167F9911009994A6 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		37C5BACD167F9A84009994A6 /* QuadMilkyWay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadMilkyWay.vsh; sourceTree = "<group>"; };
+		37C5BACE167F9A84009994A6 /* QuadMilkyWay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadMilkyWay.fsh; sourceTree = "<group>"; };
+		37C5BAD3167FA4CB009994A6 /* MilkyWayIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MilkyWayIcon@2x.png"; path = "../MilkyWayIcon@2x.png"; sourceTree = "<group>"; };
+		37C5BAD5167FA4CF009994A6 /* MilkyWayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilkyWayIcon.png; path = ../MilkyWayIcon.png; sourceTree = "<group>"; };
+		37C5BAD7167FA5A3009994A6 /* MilkyWayIconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MilkyWayIconiPad@2x.png"; path = "../MilkyWayIconiPad@2x.png"; sourceTree = "<group>"; };
+		37C5BAD9167FA5A6009994A6 /* MilkyWayIconiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilkyWayIconiPad.png; path = ../MilkyWayIconiPad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C5BAB4167F97CB009994A6 /* Social.framework in Frameworks */,
 				37A4FD48167F92B6009EAE75 /* UIKit.framework in Frameworks */,
 				37A4FD4A167F92B6009EAE75 /* Foundation.framework in Frameworks */,
 				37A4FD4C167F92B6009EAE75 /* CoreGraphics.framework in Frameworks */,
@@ -75,7 +140,7 @@
 		37A4FD44167F92B6009EAE75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37A4FD43167F92B6009EAE75 /* OpenGLMilkyWay.app */,
+				37A4FD43167F92B6009EAE75 /* Milky Way.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +148,7 @@
 		37A4FD46167F92B6009EAE75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37C5BAB3167F97CB009994A6 /* Social.framework */,
 				37A4FD47167F92B6009EAE75 /* UIKit.framework */,
 				37A4FD49167F92B6009EAE75 /* Foundation.framework */,
 				37A4FD4B167F92B6009EAE75 /* CoreGraphics.framework */,
@@ -97,11 +163,7 @@
 			children = (
 				37A4FD5A167F92B6009EAE75 /* MWRTAppDelegate.h */,
 				37A4FD5B167F92B6009EAE75 /* MWRTAppDelegate.m */,
-				37A4FD63167F92B6009EAE75 /* Shader.fsh */,
-				37A4FD65167F92B6009EAE75 /* Shader.vsh */,
-				37A4FD67167F92B6009EAE75 /* MWRTViewController.h */,
-				37A4FD68167F92B6009EAE75 /* MWRTViewController.m */,
-				37A4FD6A167F92B6009EAE75 /* MWRTViewController.xib */,
+				37A4FD9C167F940D009EAE75 /* UniverseView */,
 				37A4FD52167F92B6009EAE75 /* Supporting Files */,
 			);
 			path = OpenGLMilkyWay;
@@ -110,6 +172,10 @@
 		37A4FD52167F92B6009EAE75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37C5BAD5167FA4CF009994A6 /* MilkyWayIcon.png */,
+				37C5BAD3167FA4CB009994A6 /* MilkyWayIcon@2x.png */,
+				37C5BAD9167FA5A6009994A6 /* MilkyWayIconiPad.png */,
+				37C5BAD7167FA5A3009994A6 /* MilkyWayIconiPad@2x.png */,
 				37A4FD53167F92B6009EAE75 /* OpenGLMilkyWay-Info.plist */,
 				37A4FD54167F92B6009EAE75 /* InfoPlist.strings */,
 				37A4FD57167F92B6009EAE75 /* main.m */,
@@ -119,6 +185,97 @@
 				37A4FD61167F92B6009EAE75 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37A4FD9C167F940D009EAE75 /* UniverseView */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD72167F9367009EAE75 /* UniverseViewController.h */,
+				37A4FD73167F9367009EAE75 /* UniverseViewController.m */,
+				37C5BAA8167F9479009994A6 /* Shaders */,
+				37C5BAD1167F9E46009994A6 /* Renderer */,
+				37C5BAD2167FA31E009994A6 /* OpenGLTools */,
+				37C5BAC9167F9819009994A6 /* OnSceenButton */,
+				37C5BAC8167F9807009994A6 /* ShareController */,
+				37C5BAA9167F9487009994A6 /* Images */,
+			);
+			name = UniverseView;
+			sourceTree = "<group>";
+		};
+		37C5BAA8167F9479009994A6 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD7E167F9390009EAE75 /* ShaderManager.h */,
+				37A4FD7F167F9390009EAE75 /* ShaderManager.m */,
+				37A4FD80167F9390009EAE75 /* SimpleShader.h */,
+				37A4FD81167F9390009EAE75 /* SimpleShader.m */,
+				37A4FD92167F93FB009EAE75 /* PointsMilkyWay.vsh */,
+				37A4FD93167F93FD009EAE75 /* PointsMilkyWay.fsh */,
+				37A4FD94167F9400009EAE75 /* PointsMilkyWayToTexture.vsh */,
+				37A4FD95167F9404009EAE75 /* PointsMilkyWayToTexture.fsh */,
+				37C5BACD167F9A84009994A6 /* QuadMilkyWay.vsh */,
+				37C5BACE167F9A84009994A6 /* QuadMilkyWay.fsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		37C5BAA9167F9487009994A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD87167F93A8009EAE75 /* milkywaybg.png */,
+				37A4FD89167F93A8009EAE75 /* milkywaydust.png */,
+				37A4FD8A167F93A8009EAE75 /* newblob.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		37C5BAC8167F9807009994A6 /* ShareController */ = {
+			isa = PBXGroup;
+			children = (
+				37C5BAAE167F9798009994A6 /* ShareController.h */,
+				37C5BAAF167F9798009994A6 /* ShareController.m */,
+			);
+			name = ShareController;
+			sourceTree = "<group>";
+		};
+		37C5BAC9167F9819009994A6 /* OnSceenButton */ = {
+			isa = PBXGroup;
+			children = (
+				37C5BAB5167F97E9009994A6 /* UIButton+OnScreen.h */,
+				37C5BAB6167F97E9009994A6 /* UIButton+OnScreen.m */,
+				37C5BAB8167F9801009994A6 /* back_iphone.png */,
+				37C5BAB9167F9801009994A6 /* back_iphone@2x.png */,
+				37C5BABA167F9801009994A6 /* back.png */,
+				37C5BABB167F9801009994A6 /* back@2x.png */,
+				37C5BABC167F9801009994A6 /* share_iphone.png */,
+				37C5BABD167F9801009994A6 /* share_iphone@2x.png */,
+				37C5BABE167F9801009994A6 /* share.png */,
+				37C5BABF167F9801009994A6 /* share@2x.png */,
+			);
+			name = OnSceenButton;
+			sourceTree = "<group>";
+		};
+		37C5BAD1167F9E46009994A6 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				37A4FD7C167F9390009EAE75 /* UniverseDrawableElement.h */,
+				37A4FD7D167F9390009EAE75 /* UniverseDrawableElement.m */,
+				37A4FD85167F93A8009EAE75 /* UDEMilkyWay.h */,
+				37A4FD86167F93A8009EAE75 /* UDEMilkyWay.m */,
+				37A4FD88167F93A8009EAE75 /* milkyway0.binary */,
+			);
+			name = Renderer;
+			sourceTree = "<group>";
+		};
+		37C5BAD2167FA31E009994A6 /* OpenGLTools */ = {
+			isa = PBXGroup;
+			children = (
+				37C5BACA167F9911009994A6 /* Texture2D.h */,
+				37C5BACB167F9911009994A6 /* Texture2D.m */,
+				37A4FD79167F937D009EAE75 /* ExoplanetSharegroup.h */,
+				37A4FD7A167F937D009EAE75 /* ExoplanetSharegroup.m */,
+			);
+			name = OpenGLTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +295,7 @@
 			);
 			name = OpenGLMilkyWay;
 			productName = OpenGLMilkyWay;
-			productReference = 37A4FD43167F92B6009EAE75 /* OpenGLMilkyWay.app */;
+			productReference = 37A4FD43167F92B6009EAE75 /* Milky Way.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,10 +333,29 @@
 				37A4FD56167F92B6009EAE75 /* InfoPlist.strings in Resources */,
 				37A4FD5E167F92B6009EAE75 /* Default.png in Resources */,
 				37A4FD60167F92B6009EAE75 /* Default@2x.png in Resources */,
+				37C5BACF167F9A84009994A6 /* QuadMilkyWay.vsh in Resources */,
+				37C5BAD0167F9A84009994A6 /* QuadMilkyWay.fsh in Resources */,
+				37A4FD98167F9407009EAE75 /* PointsMilkyWay.vsh in Resources */,
+				37A4FD99167F9407009EAE75 /* PointsMilkyWay.fsh in Resources */,
+				37A4FD9A167F9407009EAE75 /* PointsMilkyWayToTexture.vsh in Resources */,
+				37A4FD9B167F9407009EAE75 /* PointsMilkyWayToTexture.fsh in Resources */,
 				37A4FD62167F92B6009EAE75 /* Default-568h@2x.png in Resources */,
-				37A4FD64167F92B6009EAE75 /* Shader.fsh in Resources */,
-				37A4FD66167F92B6009EAE75 /* Shader.vsh in Resources */,
-				37A4FD6C167F92B6009EAE75 /* MWRTViewController.xib in Resources */,
+				37A4FD8C167F93A8009EAE75 /* milkywaybg.png in Resources */,
+				37A4FD8D167F93A8009EAE75 /* milkyway0.binary in Resources */,
+				37A4FD8E167F93A8009EAE75 /* milkywaydust.png in Resources */,
+				37A4FD8F167F93A8009EAE75 /* newblob.png in Resources */,
+				37C5BAC0167F9801009994A6 /* back_iphone.png in Resources */,
+				37C5BAC1167F9801009994A6 /* back_iphone@2x.png in Resources */,
+				37C5BAC2167F9801009994A6 /* back.png in Resources */,
+				37C5BAC3167F9801009994A6 /* back@2x.png in Resources */,
+				37C5BAC4167F9801009994A6 /* share_iphone.png in Resources */,
+				37C5BAC5167F9801009994A6 /* share_iphone@2x.png in Resources */,
+				37C5BAC6167F9801009994A6 /* share.png in Resources */,
+				37C5BAC7167F9801009994A6 /* share@2x.png in Resources */,
+				37C5BAD4167FA4CB009994A6 /* MilkyWayIcon@2x.png in Resources */,
+				37C5BAD6167FA4CF009994A6 /* MilkyWayIcon.png in Resources */,
+				37C5BAD8167FA5A3009994A6 /* MilkyWayIconiPad@2x.png in Resources */,
+				37C5BADA167FA5A6009994A6 /* MilkyWayIconiPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +368,15 @@
 			files = (
 				37A4FD58167F92B6009EAE75 /* main.m in Sources */,
 				37A4FD5C167F92B6009EAE75 /* MWRTAppDelegate.m in Sources */,
-				37A4FD69167F92B6009EAE75 /* MWRTViewController.m in Sources */,
+				37A4FD75167F9367009EAE75 /* UniverseViewController.m in Sources */,
+				37A4FD7B167F937D009EAE75 /* ExoplanetSharegroup.m in Sources */,
+				37A4FD82167F9391009EAE75 /* UniverseDrawableElement.m in Sources */,
+				37A4FD83167F9391009EAE75 /* ShaderManager.m in Sources */,
+				37A4FD84167F9391009EAE75 /* SimpleShader.m in Sources */,
+				37A4FD8B167F93A8009EAE75 /* UDEMilkyWay.m in Sources */,
+				37C5BAB0167F9798009994A6 /* ShareController.m in Sources */,
+				37C5BAB7167F97E9009994A6 /* UIButton+OnScreen.m in Sources */,
+				37C5BACC167F9911009994A6 /* Texture2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,14 +389,6 @@
 				37A4FD55167F92B6009EAE75 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		37A4FD6A167F92B6009EAE75 /* MWRTViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37A4FD6B167F92B6009EAE75 /* en */,
-			);
-			name = MWRTViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -239,7 +415,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -259,7 +435,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -272,7 +448,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLMilkyWay/OpenGLMilkyWay-Prefix.pch";
 				INFOPLIST_FILE = "OpenGLMilkyWay/OpenGLMilkyWay-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Milky Way";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,7 +461,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLMilkyWay/OpenGLMilkyWay-Prefix.pch";
 				INFOPLIST_FILE = "OpenGLMilkyWay/OpenGLMilkyWay-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Milky Way";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -307,6 +487,7 @@
 				37A4FD71167F92B6009EAE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

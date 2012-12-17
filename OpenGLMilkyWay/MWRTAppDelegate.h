@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class MWRTViewController;
+@class UniverseViewController;
 
 @interface MWRTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) MWRTViewController *viewController;
+@property (strong, nonatomic) UniverseViewController *viewController;
 
 @end
