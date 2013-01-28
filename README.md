@@ -6,6 +6,9 @@ OpenGL Milky Way
 This is an example project to show how to render a Galaxy in OpenGL on the iPhone. 
 To simulate interstellar dust realistically with unsorted point sprites in OpenGL, I've implemented a GPU based ray tracing algorithm.
 This Milky Way model is used in the [Exoplanet App](http://exoplanetapp.com). 
+The Exoplanet App is available for free on the AppStore and contains several other datasets.
+
+I gave a talk about this project at the New York iOS Meetup in January 2013. The [slides](https://github.com/hannorein/OpenGLMilkyWay/raw/master/2012%20NY%20iOS%20Meetup.pdf) of the talk are included in this repository. If you have any comments, questions or suggestions for improvements, please send me an e-mail: exoplanet@hanno-rein.de. 
 
 License
 -------
